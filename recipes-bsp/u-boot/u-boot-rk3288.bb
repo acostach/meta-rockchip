@@ -8,7 +8,7 @@ LIC_FILES_CHKSUM = "file://Licenses/gpl-2.0.txt;md5=b234ee4d69f5fce4486a80fdaf4a
 
 TAG = "release-20171218"
 SRC_URI = " \
-	git://github.com/rockchip-linux/u-boot.git;tag=${TAG};protocol=https;nobranch=1; \
+	https://github.com/rockchip-linux/u-boot.git;tag=${TAG};nobranch=1; \
 	file://binutils-2.28-ld-fix.patch \
 "
 S = "${WORKDIR}/git"
