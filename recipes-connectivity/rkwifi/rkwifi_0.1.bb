@@ -4,7 +4,7 @@ LIC_FILES_CHKSUM = "file://${COREBASE}/meta/files/common-licenses/GPL-2.0;md5=80
 #FILESEXTRAPATHS_prepend := "${THISDIR}/service_file:"
 
 SRC_URI = " \
-    git://github.com/rockchip-linux/rkwifibt.git \
+    git://github.com/rockchip-linux/rkwifibt.git;protocol=https; \
     file://config.txt \
 "
 #SRCREV = "456b6008e495d40793eba5c8abcad8d09c65f6ea"
