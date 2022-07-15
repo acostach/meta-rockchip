@@ -3,7 +3,7 @@ FILESEXTRAPATHS_prepend := "${THISDIR}/files:"
 DEPENDS += "openssl-native"
 
 SRC_URI = " \
-	git://github.com/rockchip-linux/kernel.git;branch=release-4.4; \
+	git://github.com/rockchip-linux/kernel.git;protocol=https;branch=release-4.4; \
         file://defconfig \
         file://1001-dtsFile.patch \
         file://1012-ap6236.patch \
